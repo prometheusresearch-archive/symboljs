@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "main": "lib/index.js",
   "dependencies": {
-    "babylon": "^6.15.0"
+    "babylon": "^6.15.0",
+    "globby": "^6.1.0"
   },
   "devDependencies": {
     "jest": "^18.1.0"
