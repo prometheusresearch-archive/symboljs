@@ -2,9 +2,14 @@
   "name": "symbol",
   "version": "0.1.0",
   "main": "lib/index.js",
+  "bin": {
+    "symbol.js": "bin/main.js"
+  },
   "dependencies": {
     "babylon": "^6.15.0",
-    "globby": "^6.1.0"
+    "globby": "^6.1.0",
+    "read-input": "^0.3.1",
+    "yargs": "^6.6.0"
   },
   "devDependencies": {
     "jest": "^18.1.0"
